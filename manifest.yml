@@ -1,9 +1,9 @@
 ---
 applications:
 # Application
-- name: product-list
+- name: product-list-green
   instances: 1
   memory: 896M
-  host: product-list-YOUR_BIRTH_DATE
+  host: ms-test-20171214-green
   path: target/product-list.jar
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.3
+  buildpack: sap_java_buildpack
